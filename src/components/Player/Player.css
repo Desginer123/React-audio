@@ -1,0 +1,26 @@
+.player__buttons-block {
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__end-block {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+
+.player__video {
+    background: #CFD3D6;
+    width: 610px;
+    height: 198px;
+}
+
+@media (max-width: 320px) {
+    .player__video {
+        width: 300px;
+    }
+}
